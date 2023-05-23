@@ -1,7 +1,9 @@
+#include"./SGwriteAE_logic.jsx"
+
 (function(isPanel) {
 
     function executeScript(){
-        alert(456456);
+        logic_execute()
 }
 
     var script_name = 'SGwriteFromAE';
