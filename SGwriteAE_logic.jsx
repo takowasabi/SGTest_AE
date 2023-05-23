@@ -1,7 +1,7 @@
 
 function logic_execute(){
-    
-    alert(ShotName())
+    var batFile = new File('D:/ScriptsTools/03_pipeline/AfterEffects/SGTest_AE/SEwrite_AE.bat')
+    batFile.execute();
 }
 
 function ShotName(){

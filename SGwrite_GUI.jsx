@@ -4,6 +4,7 @@
 
     function executeScript(){
         logic_execute()
+        alert("done!")
 }
 
     var script_name = 'SGwriteFromAE';
