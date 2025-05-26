@@ -23,9 +23,9 @@ from shotgun_api3 import Shotgun
 
 def createSG_API():
     sg = Shotgun(
-    "https://100st.shotgrid.autodesk.com",
+    "https://aaaaa.shotgrid.autodesk.com",
     script_name="BlenderFileUpload_test",
-    api_key="zeadawwp^hy3ycnkrsjhqvnlK"
+    api_key="hogehoge"
     )
     return sg
 def setData():
