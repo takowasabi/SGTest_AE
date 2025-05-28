@@ -1,22 +1,4 @@
-#テスト段階
-# path = r'C:\Users\y-yoshioka\Desktop\test.txt'
-# s ="lplplplpp"
-# try:
-#     f = open(path)
-#     with open(path, mode='w') as f:
-#         f.write(s)
-#     f.close()
-# except FileExistsError:
-#     pass
 
-import sys
-
-P=r"C:\Users\y-yoshioka\AppData\Roaming\Python\Python310\site-packages"
-PP =r"C:\Users\y-yoshioka\AppData\Local\Programs\Python\Python310\Lib\site-packages"
-sys.path.append(P)
-sys.path.append(PP)
-# for i in sys.path:
-#     print(i)
 
 
 from shotgun_api3 import Shotgun
