@@ -1,6 +1,4 @@
 
-
-
 from shotgun_api3 import Shotgun
 
 def createSG_API():
